@@ -7,7 +7,7 @@ const app = express()
 // 2. function yg akan dijalan kan/callback
 // http://localhost:port
 
-// untuk menjeladkan ke pengguna
+// untuk menjelaskan ke pengguna
 
 
 const fn1 =(request, response, next) =>{
