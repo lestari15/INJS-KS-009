@@ -3,7 +3,6 @@ const jwt = require("jsonwebtoken")
 const port = 3000
 const data = require("./data.json")
 const app = express()
-
 app.use(express.urlencoded({ extended : true }))
 
 app.get("/getData", (request, response) => {
